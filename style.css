@@ -1,0 +1,85 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+    color: rgb(0, 0, 0);
+    padding: 12px 8px;
+    margin: 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    flex: 1 1 0;
+    min-width: 42px;
+    font-size: 1rem;
+
+}
+
+.button:hover{
+    background-color: rgb(97, 97, 97);
+    box-shadow: 0 12px 25px rgb(255, 255, 255);
+
+}
+
+.row {
+    margin: 8px 0;
+    display: flex;
+    gap: 6px;
+}
+
+.row {
+    margin: 8px 0;
+    display: flex;
+    gap: 6px;
+}
+
+
+
+
+.row input {
+    margin: 0;
+    padding: 8px;
+    width: 100%;
+    line-height: 1.4;
+    border-radius: 4px;
+    cursor: text;
+    border: 2px solid rgb(194, 194, 194);
+    background-color: rgba(255, 255, 255, 0.692);
+    box-shadow: 0 12px 8px rgb(0, 0, 0);
+    transition: 1s ease-in-out;
+}
+
+
+.row input:hover {
+    background-color: white;
+}
+
+
+/* Container sizing for responsiveness */
+.container {
+    max-width: 220px;
+    padding: 16px;
+    box-sizing: border-box;
+    background-color: #373630;
+}
+
+footer {
+    text-align: center;
+    padding: 12px;
+    background-color: #373630;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
